@@ -22,12 +22,12 @@ A pure-Python command-line alarm clock built for a 30-minute senior software eng
 
 ```bash
 # Interactive mode (recommended)
-python alarm.py
+python alarm_clock.py
 
 # One-shot alarm
-python alarm.py --set 07:30
-python alarm.py --set +10m --label "tea break"
-python alarm.py -s 14:00:00 -l "standup"
+python alarm_clock.py --set 07:30
+python alarm_clock.py --set +10m --label "tea break"
+python alarm_clock.py -s 14:00:00 -l "standup"
 ```
 
 ### Interactive commands
